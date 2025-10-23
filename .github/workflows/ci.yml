@@ -35,7 +35,7 @@ jobs:
 
       # 5 - Gera os artefatos para download dos reports
       - name: Upload test reports
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: cucumber-reports
           path: target/cucumber-report/**
