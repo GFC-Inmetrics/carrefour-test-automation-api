@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BaseApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/UserApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/AuthUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BuscarUsuários.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/CadastroUsuário.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DeletarUsuário.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EditarUsuário.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vcs.xml" afterDir="false" />
+    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="Projeto API Usuários - Carrefour">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +32,9 @@
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="34Naa83wtrQOUPuqeliFxDXuVYq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,6 +58,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -206,12 +197,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761056545286</updated>
-      <workItem from="1761056547554" duration="37579000" />
+      <workItem from="1761056547554" duration="39079000" />
     </task>
+    <task id="LOCAL-00001" summary="Projeto API Usuários - Carrefour">
+      <option name="closed" value="true" />
+      <created>1761178439472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761178439472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projeto API Usuários - Carrefour" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto API Usuários - Carrefour" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
