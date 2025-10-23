@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="report">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="report CI">
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +188,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761056545286</updated>
-      <workItem from="1761056547554" duration="44295000" />
+      <workItem from="1761056547554" duration="45240000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto API Usuários - Carrefour">
       <option name="closed" value="true" />
@@ -271,7 +270,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761185050978</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="report CI">
+      <option name="closed" value="true" />
+      <created>1761185595062</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761185595062</updated>
+    </task>
+    <task id="LOCAL-00012" summary="report CI">
+      <option name="closed" value="true" />
+      <created>1761185903642</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761185903642</updated>
+    </task>
+    <task id="LOCAL-00013" summary="report CI">
+      <option name="closed" value="true" />
+      <created>1761185918468</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1761185918468</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +306,8 @@
     <MESSAGE value="Report cucumber HTML" />
     <MESSAGE value="Report cucumber HTML build" />
     <MESSAGE value="report" />
-    <option name="LAST_COMMIT_MESSAGE" value="report" />
+    <MESSAGE value="report CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="report CI" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
