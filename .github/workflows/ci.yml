@@ -33,23 +33,16 @@ jobs:
       - name: Build and run tests
         run: mvn clean test
 
-      # 5 - Gera os artefatos para download dos reports
-      - name: Upload test reports
-        uses: actions/upload-artifact@v4
-        with:
-          name: cucumber-reports
-          path: target/cucumber-report/**
 
-
-      # 6 - Roda Maven em modo verbose
+      # 5 - Roda Maven em modo verbose
       - name: Run Maven tests
         run: mvn clean test -X
 
-      # 7 - Lista o target para ver quais relatórios foram criados
+      # 6 - Lista o target para ver quais relatórios foram criados
       - name: List target folder
         run: ls -R target
 
-      # 8 - Faz upload dos relatórios do Cucumber, se existirem
+      # 7 - Faz upload dos relatórios do Cucumber, se existirem
       - name: Upload test reports
         uses: actions/upload-artifact@v4
         with:
