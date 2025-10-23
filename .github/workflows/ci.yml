@@ -30,6 +30,9 @@ jobs:
       - name: List feature files
         run: ls -R src/test/resources/features
 
+      - name: Build and run tests
+        run: mvn clean test
+
       # 5️⃣ Roda Maven em modo verbose
       - name: Run Maven tests
         run: mvn clean test -X
