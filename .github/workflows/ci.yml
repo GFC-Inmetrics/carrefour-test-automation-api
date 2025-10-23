@@ -50,3 +50,11 @@ jobs:
             target/cucumber-report/html
             target/cucumber-report.json
             target/cucumber.xml
+
+      - name: Upload Surefire reports
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: surefire-reports
+          path: target/surefire-reports/
+      
