@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="Projeto API Usuários - Carrefour com report">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/AuthUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/AuthUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
-    </list>
+    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="Report cucumber HTML" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761056545286</updated>
-      <workItem from="1761056547554" duration="40367000" />
+      <workItem from="1761056547554" duration="40712000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto API Usuários - Carrefour">
       <option name="closed" value="true" />
@@ -208,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761179920373</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Report cucumber HTML">
+      <option name="closed" value="true" />
+      <created>1761181645275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761181645275</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Report cucumber HTML">
+      <option name="closed" value="true" />
+      <created>1761181797926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761181797926</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +228,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto API Usuários - Carrefour" />
     <MESSAGE value="Projeto API Usuários - Carrefour com report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projeto API Usuários - Carrefour com report" />
+    <MESSAGE value="Report cucumber HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Report cucumber HTML" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
