@@ -11,29 +11,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Pega o código
+      # 1️⃣ Checkout do código
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 2️⃣ Configura Java 17
+      # 2️⃣ Configura JDK 17
       - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Run tests with verbose
+      # 3️⃣ Mostra a estrutura inicial (debug)
+      - name: Show project structure
+        run: ls -R
+
+      # 4️⃣ Lista features para garantir que o Cucumber vai encontrá-las
+      - name: List feature files
+        run: ls -R src/test/resources/features
+
+      # 5️⃣ Roda Maven em modo verbose
+      - name: Run Maven tests
         run: mvn clean test -X
 
-      # 3️⃣ Roda Maven com limpeza e testes
-      - name: Build and run tests
-        run: mvn clean test
-
-      # 4️⃣ Mostra a pasta target (opcional para debug)
-      - name: List generated reports
+      # 6️⃣ Lista o target para ver quais relatórios foram criados
+      - name: List target folder
         run: ls -R target
 
-      # 5️⃣ Faz upload de todos os relatórios do Cucumber
+      # 7️⃣ Faz upload dos relatórios do Cucumber, se existirem
       - name: Upload test reports
         uses: actions/upload-artifact@v4
         with:
