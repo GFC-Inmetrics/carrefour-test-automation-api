@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="pom ajuste mvn surefire II" />
+    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="Ajuste POM para JUNIT">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/AuthUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/AuthUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,43 +83,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.All Features in: features">
-    <configuration name="All Features in: features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CarrefourApiTestAutomation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
-      <option name="SUGGESTED_NAME" value="All Features in: features" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: BuscarUsuários" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BuscarUsuários.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CarrefourApiTestAutomation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
-      <option name="SUGGESTED_NAME" value="Feature: BuscarUsuários" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Feature: DeletarUsuário">
     <configuration name="Feature: DeletarUsuário" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeletarUsuário.feature" />
@@ -151,10 +120,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in CarrefourApiTestAutomation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Deletar usuário com carrinho vinculado" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeletarUsuário.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CarrefourApiTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="NAME_FILTER" value="^Deletar usuário com carrinho vinculado$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^Deletar usuário com carrinho vinculado$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Deletar usuário com carrinho vinculado" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Deletar usuário existente" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeletarUsuário.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CarrefourApiTestAutomation" />
+      <option name="NAME_FILTER" value="^Deletar usuário existente$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^Deletar usuário existente$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Deletar usuário existente" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Deletar usuário inexistente" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeletarUsuário.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CarrefourApiTestAutomation" />
+      <option name="NAME_FILTER" value="^Deletar usuário inexistente$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^Deletar usuário inexistente$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Deletar usuário inexistente" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.All Features in: features" />
-        <item itemvalue="JUnit.All in CarrefourApiTestAutomation" />
-        <item itemvalue="Cucumber Java.Feature: BuscarUsuários" />
-        <item itemvalue="Cucumber Java.Feature: EditarUsuário" />
         <item itemvalue="Cucumber Java.Feature: DeletarUsuário" />
+        <item itemvalue="Cucumber Java.Feature: EditarUsuário" />
+        <item itemvalue="Cucumber Java.Scenario: Deletar usuário inexistente" />
+        <item itemvalue="Cucumber Java.Scenario: Deletar usuário existente" />
+        <item itemvalue="Cucumber Java.Scenario: Deletar usuário com carrinho vinculado" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +215,7 @@
       <updated>1761056545286</updated>
       <workItem from="1761056547554" duration="46882000" />
       <workItem from="1761188236908" duration="2273000" />
-      <workItem from="1761224963055" duration="706000" />
+      <workItem from="1761224963055" duration="7767000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto API Usuários - Carrefour">
       <option name="closed" value="true" />
@@ -359,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761225300928</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Ajuste POM para JUNIT">
+      <option name="closed" value="true" />
+      <created>1761225945957</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1761225945957</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +402,8 @@
     <MESSAGE value="pom" />
     <MESSAGE value="pom ajuste mvn surefire" />
     <MESSAGE value="pom ajuste mvn surefire II" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom ajuste mvn surefire II" />
+    <MESSAGE value="Ajuste POM para JUNIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste POM para JUNIT" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

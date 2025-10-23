@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 public class UserApi extends BaseApi {
 
     private String token = AuthUtils.getToken();
-  //  private String userCartToken = AuthUtils.userWithCart();
+
 
     public Response createUser(String nome, String email, String password, String admin) {
         String body = String.format("""
@@ -68,9 +68,9 @@ public class UserApi extends BaseApi {
     }
 
     public Response deleteUserWithCart(String id) {
-
+        String userCartToken = AuthUtils.getToken();
         return given()
-                .header("Authorization", token)
+                .header("Authorization", userCartToken)
                 .delete("/usuarios/" + id);
     }
 }
