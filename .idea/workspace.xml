@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="pom">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="pom ajuste mvn surefire" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,6 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761056545286</updated>
       <workItem from="1761056547554" duration="46882000" />
+      <workItem from="1761188236908" duration="414000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto API Usuários - Carrefour">
       <option name="closed" value="true" />
@@ -326,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761187443992</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="pom ajuste mvn surefire">
+      <option name="closed" value="true" />
+      <created>1761188492838</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1761188492838</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +348,8 @@
     <MESSAGE value="report CI" />
     <MESSAGE value="report CI II" />
     <MESSAGE value="pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom" />
+    <MESSAGE value="pom ajuste mvn surefire" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom ajuste mvn surefire" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
