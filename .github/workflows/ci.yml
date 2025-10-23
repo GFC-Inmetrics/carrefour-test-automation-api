@@ -22,6 +22,9 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+      - name: Run tests with verbose
+        run: mvn clean test -X
+
       # 3️⃣ Roda Maven com limpeza e testes
       - name: Build and run tests
         run: mvn clean test

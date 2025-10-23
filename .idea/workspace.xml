@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="Report cucumber HTML" />
+    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="report">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.All Features in: features.executor": "Run",
     "Cucumber Java.Feature: BuscarUsuários.executor": "Run",
     "Cucumber Java.Feature: CadastroUsuário.executor": "Run",
     "Cucumber Java.Feature: DeletarUsuário.executor": "Run",
@@ -68,14 +72,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in CarrefourApiTestAutomation">
-    <configuration name="Feature: BuscarUsuários" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.All Features in: features">
+    <configuration name="All Features in: features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BuscarUsuários.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CarrefourApiTestAutomation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
-      <option name="SUGGESTED_NAME" value="Feature: BuscarUsuários" />
+      <option name="SUGGESTED_NAME" value="All Features in: features" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: CadastroUsuário" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: BuscarUsuários" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CadastroUsuário.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BuscarUsuários.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CarrefourApiTestAutomation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
-      <option name="SUGGESTED_NAME" value="Feature: CadastroUsuário" />
+      <option name="SUGGESTED_NAME" value="Feature: BuscarUsuários" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.All Features in: features" />
         <item itemvalue="JUnit.All in CarrefourApiTestAutomation" />
         <item itemvalue="Cucumber Java.Feature: BuscarUsuários" />
         <item itemvalue="Cucumber Java.Feature: EditarUsuário" />
         <item itemvalue="Cucumber Java.Feature: DeletarUsuário" />
-        <item itemvalue="Cucumber Java.Feature: CadastroUsuário" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +189,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761056545286</updated>
-      <workItem from="1761056547554" duration="41605000" />
+      <workItem from="1761056547554" duration="42898000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto API Usuários - Carrefour">
       <option name="closed" value="true" />
@@ -235,7 +239,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761182451008</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Report cucumber HTML build">
+      <option name="closed" value="true" />
+      <created>1761183004887</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761183004887</updated>
+    </task>
+    <task id="LOCAL-00008" summary="report">
+      <option name="closed" value="true" />
+      <created>1761183545234</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761183545234</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +265,9 @@
     <MESSAGE value="Projeto API Usuários - Carrefour" />
     <MESSAGE value="Projeto API Usuários - Carrefour com report" />
     <MESSAGE value="Report cucumber HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Report cucumber HTML" />
+    <MESSAGE value="Report cucumber HTML build" />
+    <MESSAGE value="report" />
+    <option name="LAST_COMMIT_MESSAGE" value="report" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
