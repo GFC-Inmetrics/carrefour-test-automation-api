@@ -125,10 +125,10 @@ public class UserSteps {
 
     @When("um usuário com carrinho vinculado é enviado para deleção")
     public void deletarUsuárioComCarrinho() {
-        response = userApi.deleteUserWithCart("6AkZ2mXePyaodSwO");
+        response = userApi.deleteUserWithCart("Th5cVAEmVvjYxjyg");
     }
     @Then("a api retorna que a ação não é permitida")
-    public void ValidarMensagemCarrinhoCadastrado() {
+    public void ValidarMensagemCarrinhoCadastrado(){
         response.then().statusCode(400);
         System.out.println(response.asString());
         assertThat(response.jsonPath().getString("message"), containsString("Não é permitido excluir usuário com carrinho cadastrado"));

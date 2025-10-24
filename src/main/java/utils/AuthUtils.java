@@ -21,8 +21,8 @@ public class AuthUtils {
     private static String loginAndGetToken() {
         String payload = """
                 {
-                    "email": "teste3@msn.com",
-                    "password": "12345"
+                    "email": "prueba@example.com",
+                    "password": "abcdef"
                 }
                 """;
 

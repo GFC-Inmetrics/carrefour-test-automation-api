@@ -1,59 +1,92 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="17.215">
-    <testcase classname="Busca de usuários" name="Buscar a lista de usuários" time="3.343">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="9.432">
+    <testcase classname="Busca de usuários" name="Buscar a lista de usuários" time="3.018">
         <system-out><![CDATA[When todos os usuários são buscados.........................................passed
 Then a lista de usuários é retornada........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Busca de usuários" name="Buscar usuário específico" time="1.397">
+    <testcase classname="Busca de usuários" name="Buscar usuário específico" time="0.867">
         <system-out><![CDATA[Given que um usuário novo é cadastrado......................................passed
 When o usuário é consultado pelo ID.........................................passed
 Then o usuário é retornado..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Busca de usuários" name="Buscar usuário inexistente" time="1.289">
+    <testcase classname="Busca de usuários" name="Buscar usuário inexistente" time="0.387">
         <system-out><![CDATA[When o usuário é buscado com ID inválido....................................passed
 Then erro de usuário não encontrado é exibido...............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Busca de usuários" name="Buscar usuário utilizando quantidade de caracteres incorreta pelo campo ID" time="0.903">
+    <testcase classname="Busca de usuários" name="Buscar usuário utilizando quantidade de caracteres incorreta pelo campo ID" time="0.405">
         <system-out><![CDATA[When o usuário é buscado com ID incompleto..................................passed
 Then erro de quantidade de caracteres incorreta é exibido...................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cadastro de usuários" name="Criar um novo usuário com sucesso" time="0.895">
+    <testcase classname="Cadastro de usuários" name="Criar um novo usuário com sucesso" time="0.464">
         <system-out><![CDATA[Given que um usuário novo é cadastrado......................................passed
 Then o usuário é criado com sucesso.........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cadastro de usuários" name="Criar usuário com email duplicado" time="0.867">
-        <system-out><![CDATA[Given que um usuário é criado com email existente...........................passed
-Then a API retorna um erro de email duplicado...............................passed
-]]></system-out>
+    <testcase classname="Cadastro de usuários" name="Criar usuário com email duplicado" time="0.48">
+        <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[Given que um usuário é criado com email existente...........................passed
+Then a API retorna um erro de email duplicado...............................failed
+
+StackTrace:
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <201>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.UserSteps.validarEmailDuplicado(UserSteps.java:68)
+	at ✽.a API retorna um erro de email duplicado(classpath:features/CadastroUsuário.feature:9)
+]]></failure>
     </testcase>
-    <testcase classname="Exclusão de usuários" name="Deletar usuário existente" time="1.831">
+    <testcase classname="Exclusão de usuários" name="Deletar usuário existente" time="0.872">
         <system-out><![CDATA[Given que um usuário novo é cadastrado......................................passed
 When o delete é executado...................................................passed
 Then o usuário é deletado com sucesso.......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Exclusão de usuários" name="Deletar usuário inexistente" time="1.448">
+    <testcase classname="Exclusão de usuários" name="Deletar usuário inexistente" time="0.447">
         <system-out><![CDATA[When um usuário com ID inválido é deletado..................................passed
 Then a API retorna que nenhum regitro foi excluído..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Exclusão de usuários" name="Deletar usuário com carrinho vinculado" time="0.839">
+    <testcase classname="Exclusão de usuários" name="Deletar usuário com carrinho vinculado" time="0.47">
         <system-out><![CDATA[When um usuário com carrinho vinculado é enviado para deleção...............passed
 Then a api retorna que a ação não é permitida...............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Atualização de dados de usuários" name="Atualizar usuário existente" time="1.712">
+    <testcase classname="Atualização de dados de usuários" name="Atualizar usuário existente" time="0.898">
         <system-out><![CDATA[Given que um usuário novo é cadastrado......................................passed
 When a atualização é aplicada...............................................passed
 Then o usuário é atualizado com sucesso.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Atualização de dados de usuários" name="Atualizar usuário com dados inválidos" time="2.373">
+    <testcase classname="Atualização de dados de usuários" name="Atualizar usuário com dados inválidos" time="0.884">
         <system-out><![CDATA[Given que um usuário novo é cadastrado......................................passed
 When o usuário é atualizado com email inválido..............................passed
 Then a API retorna erro de validação........................................passed
