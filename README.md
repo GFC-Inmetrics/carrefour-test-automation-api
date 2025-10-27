@@ -163,5 +163,7 @@ Autor
 Guilherme Ferreira Clemente
 
 Documentação:
+[Abrir no GitHub](https://github.com/GFC-inmetrics/carrefour-test-automation-api/blob/main/docs/Projeto%20API%20-%20Carrefour.docx)
+[Download Word](https://github.com/GFC-inmetrics/carrefour-test-automation-api/raw/main/docs/Projeto%20API%20-%20Carrefour.docx)
 
-[Projeto API - Carrefour.docx](https://github.com/user-attachments/files/23174089/Projeto.API.-.Carrefour.docx)
+
