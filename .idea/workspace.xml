@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="YML - github com artefatos">
+    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="ajuste">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/AuthUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/AuthUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/AuthUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/AuthUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/html/cucumber.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/UserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/UserSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: CadastroUsuário">
+  <component name="RunManager" selected="Cucumber Java.Feature: EditarUsuário">
     <configuration name="Feature: BuscarUsuários" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BuscarUsuários.feature" />
@@ -161,14 +160,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Deletar usuário com carrinho vinculado" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Deletar usuário existente" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DeletarUsuário.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CarrefourApiTestAutomation" />
-      <option name="NAME_FILTER" value="^Deletar usuário com carrinho vinculado$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^Deletar usuário com carrinho vinculado$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Deletar usuário com carrinho vinculado" />
+      <option name="NAME_FILTER" value="^Deletar usuário existente$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^Deletar usuário existente$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Deletar usuário existente" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -193,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: EditarUsuário" />
+        <item itemvalue="Cucumber Java.Feature: DeletarUsuário" />
         <item itemvalue="Cucumber Java.Feature: CadastroUsuário" />
         <item itemvalue="Cucumber Java.Feature: BuscarUsuários" />
-        <item itemvalue="Cucumber Java.Feature: DeletarUsuário" />
-        <item itemvalue="Cucumber Java.Feature: EditarUsuário" />
-        <item itemvalue="Cucumber Java.Scenario: Deletar usuário com carrinho vinculado" />
+        <item itemvalue="Cucumber Java.Scenario: Deletar usuário existente" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +219,7 @@
       <workItem from="1761188236908" duration="2273000" />
       <workItem from="1761224963055" duration="25584000" />
       <workItem from="1761335303858" duration="21000" />
-      <workItem from="1761335342138" duration="806000" />
+      <workItem from="1761335342138" duration="6378000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto API Usuários - Carrefour">
       <option name="closed" value="true" />
@@ -430,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761235857688</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ajuste">
+      <option name="closed" value="true" />
+      <created>1761336431794</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1761336431794</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +458,8 @@
     <MESSAGE value="Ajustes de AuthUtils e baseApi" />
     <MESSAGE value="Merge branch 'main' of https://github.com/GFC-Inmetrics/carrefour-test-automation-api" />
     <MESSAGE value="YML - github com artefatos" />
-    <option name="LAST_COMMIT_MESSAGE" value="YML - github com artefatos" />
+    <MESSAGE value="ajuste" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajuste" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

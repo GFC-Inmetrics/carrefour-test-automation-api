@@ -125,7 +125,7 @@ public class UserSteps {
 
     @When("um usuário com carrinho vinculado é enviado para deleção")
     public void deletarUsuárioComCarrinho() {
-        response = userApi.deleteUserWithCart("Th5cVAEmVvjYxjyg");
+        response = userApi.deleteUserWithCart("TaC95V2jUM93nrna");
     }
     @Then("a api retorna que a ação não é permitida")
     public void ValidarMensagemCarrinhoCadastrado(){
