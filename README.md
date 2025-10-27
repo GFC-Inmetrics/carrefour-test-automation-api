@@ -161,3 +161,7 @@ Referências
 
 Autor
 Guilherme Ferreira Clemente
+
+Documentação:
+
+[Projeto API - Carrefour.docx](https://github.com/user-attachments/files/23174089/Projeto.API.-.Carrefour.docx)
