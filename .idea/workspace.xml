@@ -6,11 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="ajuste">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/AuthUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/AuthUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/AuthUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/AuthUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report/html/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report/html/cucumber-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runners.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runners.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/UserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/UserSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: EditarUsuário">
+  <component name="RunManager" selected="Cucumber Java.Feature: DeletarUsuário">
     <configuration name="Feature: BuscarUsuários" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BuscarUsuários.feature" />
@@ -192,10 +193,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: EditarUsuário" />
         <item itemvalue="Cucumber Java.Feature: DeletarUsuário" />
-        <item itemvalue="Cucumber Java.Feature: CadastroUsuário" />
         <item itemvalue="Cucumber Java.Feature: BuscarUsuários" />
+        <item itemvalue="Cucumber Java.Feature: EditarUsuário" />
+        <item itemvalue="Cucumber Java.Feature: CadastroUsuário" />
         <item itemvalue="Cucumber Java.Scenario: Deletar usuário existente" />
       </list>
     </recent_temporary>

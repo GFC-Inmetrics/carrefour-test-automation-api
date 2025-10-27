@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="9.391">
-    <testcase classname="Busca de usuários" name="Buscar a lista de usuários" time="3.182">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="9.688">
+    <testcase classname="Busca de usuários" name="Buscar a lista de usuários" time="3.252">
         <system-out><![CDATA[When todos os usuários são buscados.........................................passed
 Then a lista de usuários é retornada........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Busca de usuários" name="Buscar usuário específico" time="0.855">
+    <testcase classname="Busca de usuários" name="Buscar usuário específico" time="0.844">
         <system-out><![CDATA[Given que um usuário novo é cadastrado......................................passed
 When o usuário é consultado pelo ID.........................................passed
 Then o usuário é retornado..................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Busca de usuários" name="Buscar usuário inexistente" time="0.412">
+    <testcase classname="Busca de usuários" name="Buscar usuário inexistente" time="0.431">
         <system-out><![CDATA[When o usuário é buscado com ID inválido....................................passed
 Then erro de usuário não encontrado é exibido...............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Busca de usuários" name="Buscar usuário utilizando quantidade de caracteres incorreta pelo campo ID" time="0.426">
+    <testcase classname="Busca de usuários" name="Buscar usuário utilizando quantidade de caracteres incorreta pelo campo ID" time="0.403">
         <system-out><![CDATA[When o usuário é buscado com ID incompleto..................................passed
 Then erro de quantidade de caracteres incorreta é exibido...................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cadastro de usuários" name="Criar um novo usuário com sucesso" time="0.442">
+    <testcase classname="Cadastro de usuários" name="Criar um novo usuário com sucesso" time="0.429">
         <system-out><![CDATA[Given que um usuário novo é cadastrado......................................passed
 Then o usuário é criado com sucesso.........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cadastro de usuários" name="Criar usuário com email duplicado" time="0.434">
+    <testcase classname="Cadastro de usuários" name="Criar usuário com email duplicado" time="0.368">
         <system-out><![CDATA[Given que um usuário é criado com email existente...........................passed
 Then a API retorna um erro de email duplicado...............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Exclusão de usuários" name="Deletar usuário existente" time="0.884">
+    <testcase classname="Exclusão de usuários" name="Deletar usuário existente" time="1.332">
         <system-out><![CDATA[Given que um usuário novo é cadastrado......................................passed
 When o delete é executado...................................................passed
 Then o usuário é deletado com sucesso.......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Exclusão de usuários" name="Deletar usuário inexistente" time="0.421">
+    <testcase classname="Exclusão de usuários" name="Deletar usuário inexistente" time="0.388">
         <system-out><![CDATA[When um usuário com ID inválido é deletado..................................passed
 Then a API retorna que nenhum regitro foi excluído..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Exclusão de usuários" name="Deletar usuário com carrinho vinculado" time="0.408">
+    <testcase classname="Exclusão de usuários" name="Deletar usuário com carrinho vinculado" time="0.385">
         <system-out><![CDATA[When um usuário com carrinho vinculado é enviado para deleção...............passed
 Then a api retorna que a ação não é permitida...............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Atualização de dados de usuários" name="Atualizar usuário existente" time="0.867">
+    <testcase classname="Atualização de dados de usuários" name="Atualizar usuário existente" time="0.815">
         <system-out><![CDATA[Given que um usuário novo é cadastrado......................................passed
 When a atualização é aplicada...............................................passed
 Then o usuário é atualizado com sucesso.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Atualização de dados de usuários" name="Atualizar usuário com dados inválidos" time="0.805">
+    <testcase classname="Atualização de dados de usuários" name="Atualizar usuário com dados inválidos" time="0.826">
         <system-out><![CDATA[Given que um usuário novo é cadastrado......................................passed
 When o usuário é atualizado com email inválido..............................passed
 Then a API retorna erro de validação........................................passed

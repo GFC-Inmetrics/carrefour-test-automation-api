@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="10.159" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="10.501" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\guilherme.clemente\AppData\Local\Temp\surefire4433007668597003798\surefirebooter-20251027095846092_3.jar C:\Users\guilherme.clemente\AppData\Local\Temp\surefire4433007668597003798 2025-10-27T09-58-45_843-jvmRun1 surefire-20251027095846092_1tmp surefire_0-20251027095846092_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\guilherme.clemente\AppData\Local\Temp\surefire13071858223851098\surefirebooter-20251027123103667_3.jar C:\Users\guilherme.clemente\AppData\Local\Temp\surefire13071858223851098 2025-10-27T12-31-03_382-jvmRun1 surefire-20251027123103667_1tmp surefire_0-20251027123103667_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\guilherme.clemente\IdeaProjects\carrefour-test-automation-api\target\test-classes;C:\Users\guilherme.clemente\IdeaProjects\carrefour-test-automation-api\target\classes;C:\Users\guilherme.clemente\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\guilherme.clemente\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\guilherme.clemente\.m2\repository\io\cucumber\cucumber-junit\7.0.0\cucumber-junit-7.0.0.jar;C:\Users\guilherme.clemente\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\guilherme.clemente\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\guilherme.clemente\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\guilherme.clemente\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\guilherme.clemente\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\guilherme.clemente\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\guilherme.clemente\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\guilherme.clemente\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\guilherme.clemente\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\guilherme.clemente\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\guilherme.clemente\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\guilherme.clemente\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\guilherme.clemente\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\guilherme.clemente\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\guilherme.clemente\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\guilherme.clemente\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\guilherme.clemente\AppData\Local\Temp\surefire4433007668597003798\surefirebooter-20251027095846092_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\guilherme.clemente\AppData\Local\Temp\surefire13071858223851098\surefirebooter-20251027123103667_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
@@ -56,18 +56,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Buscar a lista de usuários" classname="Busca de usuários" time="3.282">
+  <testcase name="Buscar a lista de usuários" classname="Busca de usuários" time="3.333">
     <system-out><![CDATA[
 Scenario: Buscar a lista de usuÃ¡rios   # features/BuscarUsuÃ¡rios.feature:4
 Login response: {
     "message": "Login realizado com sucesso",
-    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QtZ2ZjQGF1dG9tYXRpb24uY29tIiwicGFzc3dvcmQiOiJhYmNkZWYiLCJpYXQiOjE3NjE1Njk5MjksImV4cCI6MTc2MTU3MDUyOX0.pKmI3Dn3AxFmrK0NjQWO2DZH_XgnD2Yatx2l13cPRro"
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QtZ2ZjQGF1dG9tYXRpb24uY29tIiwicGFzc3dvcmQiOiJhYmNkZWYiLCJpYXQiOjE3NjE1NzkwNjcsImV4cCI6MTc2MTU3OTY2N30.XycBzqpsGuyCuDIaubEuWfVmGVLvgh0_WzJaAcx1tYs"
 }
   When todos os usuÃ¡rios sÃ£o buscados  # steps.UserSteps.buscarTodosUsuarios()
   Then a lista de usuÃ¡rios Ã© retornada # steps.UserSteps.validarListaUsuarios()
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar usuário específico" classname="Busca de usuários" time="0.855">
+  <testcase name="Buscar usuário específico" classname="Busca de usuários" time="0.853">
     <system-out><![CDATA[
 Scenario: Buscar usuÃ¡rio especÃ­fico      # features/BuscarUsuÃ¡rios.feature:8
   Given que um usuÃ¡rio novo Ã© cadastrado # steps.UserSteps.criarUsuario()
@@ -75,14 +75,14 @@ Scenario: Buscar usuÃ¡rio especÃ­fico      # features/BuscarUsuÃ¡rios.feat
   Then o usuÃ¡rio Ã© retornado             # steps.UserSteps.validarBusca()
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar usuário inexistente" classname="Busca de usuários" time="0.42">
+  <testcase name="Buscar usuário inexistente" classname="Busca de usuários" time="0.436">
     <system-out><![CDATA[
 Scenario: Buscar usuÃ¡rio inexistente            # features/BuscarUsuÃ¡rios.feature:13
   When o usuÃ¡rio Ã© buscado com ID invÃ¡lido      # steps.UserSteps.buscarUsuarioIdInvalido()
   Then erro de usuÃ¡rio nÃ£o encontrado Ã© exibido # steps.UserSteps.validarUsuarioNaoEncontrado()
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar usuário utilizando quantidade de caracteres incorreta pelo campo ID" classname="Busca de usuários" time="0.431">
+  <testcase name="Buscar usuário utilizando quantidade de caracteres incorreta pelo campo ID" classname="Busca de usuários" time="0.408">
     <system-out><![CDATA[
 Scenario: Buscar usuÃ¡rio utilizando quantidade de caracteres incorreta pelo campo ID # features/BuscarUsuÃ¡rios.feature:18
   When o usuÃ¡rio Ã© buscado com ID incompleto                                         # steps.UserSteps.buscarUsuarioIdIncompleto()
@@ -92,21 +92,21 @@ Scenario: Buscar usuÃ¡rio utilizando quantidade de caracteres incorreta pelo c
   Then erro de quantidade de caracteres incorreta Ã© exibido                          # steps.UserSteps.QuantidadeCaracteresIncorreta()
 ]]></system-out>
   </testcase>
-  <testcase name="Criar um novo usuário com sucesso" classname="Cadastro de usuários" time="0.442">
+  <testcase name="Criar um novo usuário com sucesso" classname="Cadastro de usuários" time="0.434">
     <system-out><![CDATA[
 Scenario: Criar um novo usuÃ¡rio com sucesso # features/CadastroUsuÃ¡rio.feature:3
   Given que um usuÃ¡rio novo Ã© cadastrado    # steps.UserSteps.criarUsuario()
   Then o usuÃ¡rio Ã© criado com sucesso       # steps.UserSteps.validarCriacao()
 ]]></system-out>
   </testcase>
-  <testcase name="Criar usuário com email duplicado" classname="Cadastro de usuários" time="0.435">
+  <testcase name="Criar usuário com email duplicado" classname="Cadastro de usuários" time="0.373">
     <system-out><![CDATA[
 Scenario: Criar usuÃ¡rio com email duplicado         # features/CadastroUsuÃ¡rio.feature:7
   Given que um usuÃ¡rio Ã© criado com email existente # steps.UserSteps.criarUsuarioEmailDuplicado()
   Then a API retorna um erro de email duplicado     # steps.UserSteps.validarEmailDuplicado()
 ]]></system-out>
   </testcase>
-  <testcase name="Deletar usuário existente" classname="Exclusão de usuários" time="0.892">
+  <testcase name="Deletar usuário existente" classname="Exclusão de usuários" time="1.339">
     <system-out><![CDATA[
 Scenario: Deletar usuÃ¡rio existente      # features/DeletarUsuÃ¡rio.feature:4
   Given que um usuÃ¡rio novo Ã© cadastrado # steps.UserSteps.criarUsuario()
@@ -114,25 +114,25 @@ Scenario: Deletar usuÃ¡rio existente      # features/DeletarUsuÃ¡rio.feature
   Then o usuÃ¡rio Ã© deletado com sucesso  # steps.UserSteps.validarExclusao()
 ]]></system-out>
   </testcase>
-  <testcase name="Deletar usuário inexistente" classname="Exclusão de usuários" time="0.426">
+  <testcase name="Deletar usuário inexistente" classname="Exclusão de usuários" time="0.393">
     <system-out><![CDATA[
 Scenario: Deletar usuÃ¡rio inexistente                # features/DeletarUsuÃ¡rio.feature:9
   When um usuÃ¡rio com ID invÃ¡lido Ã© deletado         # steps.UserSteps.deletarUsuarioInvalido()
   Then a API retorna que nenhum regitro foi excluÃ­do # steps.UserSteps.validarMensagemAoDeletarUsuarioInexistente()
 ]]></system-out>
   </testcase>
-  <testcase name="Deletar usuário com carrinho vinculado" classname="Exclusão de usuários" time="0.417">
+  <testcase name="Deletar usuário com carrinho vinculado" classname="Exclusão de usuários" time="0.388">
     <system-out><![CDATA[
 Scenario: Deletar usuÃ¡rio com carrinho vinculado                # features/DeletarUsuÃ¡rio.feature:13
   When um usuÃ¡rio com carrinho vinculado Ã© enviado para deleÃ§Ã£o # steps.UserSteps.deletarUsuÃ¡rioComCarrinho()
 {
     "message": "Não é permitido excluir usuário com carrinho cadastrado",
-    "idCarrinho": "DhpY1mgHbI7aLnce"
+    "idCarrinho": "2VmNV7Ds3yjL6AAK"
 }
   Then a api retorna que a aÃ§Ã£o nÃ£o Ã© permitida                 # steps.UserSteps.ValidarMensagemCarrinhoCadastrado()
 ]]></system-out>
   </testcase>
-  <testcase name="Atualizar usuário existente" classname="Atualização de dados de usuários" time="0.872">
+  <testcase name="Atualizar usuário existente" classname="Atualização de dados de usuários" time="0.821">
     <system-out><![CDATA[
 Scenario: Atualizar usuÃ¡rio existente     # features/EditarUsuÃ¡rio.feature:3
   Given que um usuÃ¡rio novo Ã© cadastrado  # steps.UserSteps.criarUsuario()
@@ -140,7 +140,7 @@ Scenario: Atualizar usuÃ¡rio existente     # features/EditarUsuÃ¡rio.feature
   Then o usuÃ¡rio Ã© atualizado com sucesso # steps.UserSteps.validarAtualizacao()
 ]]></system-out>
   </testcase>
-  <testcase name="Atualizar usuário com dados inválidos" classname="Atualização de dados de usuários" time="0.811">
+  <testcase name="Atualizar usuário com dados inválidos" classname="Atualização de dados de usuários" time="0.831">
     <system-out><![CDATA[
 Scenario: Atualizar usuÃ¡rio com dados invÃ¡lidos  # features/EditarUsuÃ¡rio.feature:8
   Given que um usuÃ¡rio novo Ã© cadastrado         # steps.UserSteps.criarUsuario()
