@@ -162,8 +162,12 @@ Referências
 Autor
 Guilherme Ferreira Clemente
 
-Documentação:
-[Abrir no GitHub](https://github.com/GFC-inmetrics/carrefour-test-automation-api/Projeto%20API%20-%20Carrefour.docx)
-[Download Word](https://github.com/GFC-inmetrics/carrefour-test-automation-api/Projeto%20API%20-%20Carrefour.docx)
+## 📄 Documentação do Projeto
+
+Você pode consultar o documento completo do projeto de testes automatizados em Word:
+
+- [Abrir documento Word](https://github.com/GFC-inmetrics/carrefour-test-automation-api/blob/main/Projeto%20API%20-%20Carrefour.docx)
+- [Baixar documento Word](https://github.com/GFC-inmetrics/carrefour-test-automation-api/raw/main/Projeto%20API%20-%20Carrefour.docx)
+
 
 
