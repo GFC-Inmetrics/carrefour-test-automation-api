@@ -2,7 +2,10 @@ package pages;
 
 import io.restassured.response.Response;
 import utils.AuthUtils;
+import hooks.UserHooks;
 
+import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 
 import static io.restassured.RestAssured.given;
@@ -10,7 +13,6 @@ import static io.restassured.RestAssured.given;
 public class UserApi extends BaseApi {
 
     private String token = AuthUtils.getToken();
-
 
     public Response createUser(String nome, String email, String password, String admin) {
         String body = String.format("""
@@ -30,13 +32,11 @@ public class UserApi extends BaseApi {
     }
 
     public Response getUsers() {
-        return given()
-                .get("/usuarios");
+        return given().get("/usuarios");
     }
 
     public Response getUserById(String id) {
-        return given()
-                .get("/usuarios/" + id);
+        return given().get("/usuarios/" + id);
     }
 
     public Response updateUser(String id, String nome, String email, String password, String admin) {
@@ -57,7 +57,6 @@ public class UserApi extends BaseApi {
     }
 
     public Response deleteUser(String id) {
-        String token = AuthUtils.getToken();
         return given()
                 .header("Authorization", token)
                 .delete("/usuarios/" + id);
@@ -67,10 +66,49 @@ public class UserApi extends BaseApi {
         return "user" + UUID.randomUUID() + "@teste.com";
     }
 
-    public Response deleteUserWithCart(String id) {
-        String userCartToken = AuthUtils.getToken();
+    public Response getUserCarts(String userId) {
         return given()
-                .header("Authorization", userCartToken)
-                .delete("/usuarios/" + id);
+                .header("Authorization", token)
+                .get("/carrinhos/usuario/" + userId);
     }
+
+    public Response deleteCart(String cartId, String userToken) {
+        return given()
+                .header("Authorization", userToken)
+                .delete("/carrinhos/" + cartId);
+    }
+
+    public Response deleteUserWithCart(String userId, String userToken) {
+        return given()
+                .header("Authorization", userToken)
+                .delete("/usuarios/" + userId);
+    }
+
+    public Response createCart(String userToken) {
+        String productId = getFirstProductId(); // busca um produto válido
+
+        String body = String.format("""
+        {
+            "produtos": [
+                {"idProduto": "%s", "quantidade": 1}
+            ]
+        }
+        """, productId);
+
+        return given()
+                .header("Authorization", userToken)
+                .contentType("application/json")
+                .body(body)
+                .post("/carrinhos");
+    }
+
+
+    public String getFirstProductId() {
+        Response response = given()
+                .get("/produtos");
+
+        return response.jsonPath().getString("produtos[0]._id");
+    }
+
+
 }

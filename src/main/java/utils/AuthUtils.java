@@ -6,10 +6,8 @@ import static io.restassured.RestAssured.given;
 
 public class AuthUtils {
 
-    // Guarda o token após o primeiro login
     private static String cachedToken;
 
-    // Retorna o token (faz login apenas uma vez)
     public static String getToken() {
         if (cachedToken == null) {
             cachedToken = loginAndGetToken();
@@ -17,28 +15,60 @@ public class AuthUtils {
         return cachedToken;
     }
 
-    // Faz o login e retorna o token
     private static String loginAndGetToken() {
-        String payload = """
+        String email = "test-gfc@automation.com";
+        String password = "abcdef";
+
+        String payload = String.format("""
                 {
-                    "email": "test-gfc@automation.com",
-                    "password": "abcdef"
+                    "email": "%s",
+                    "password": "%s"
                 }
-                """;
+                """, email, password);
 
         Response response = given()
                 .contentType("application/json")
                 .body(payload)
                 .post("https://serverest.dev/login");
 
-        System.out.println("Login response: " + response.asString());
-
+        // Se o login falhar, cria o usuário e tenta novamente
         if (response.statusCode() != 200) {
-            throw new RuntimeException("Falha no login: " + response.asString());
+            System.out.println(" Login falhou, criando usuário de autenticação...");
+
+            // Cria o usuário admin padrão
+            String createUserBody = String.format("""
+                    {
+                        "nome": "Usuário Automático Token",
+                        "email": "%s",
+                        "password": "%s",
+                        "administrador": "true"
+                    }
+                    """, email, password);
+
+            Response createResponse = given()
+                    .contentType("application/json")
+                    .body(createUserBody)
+                    .post("https://serverest.dev/usuarios");
+
+            if (createResponse.statusCode() != 201 && createResponse.statusCode() != 400) {
+                throw new RuntimeException(" Falha ao criar usuário para autenticação: " + createResponse.asString());
+            }
+
+            // Tenta o login novamente
+            response = given()
+                    .contentType("application/json")
+                    .body(payload)
+                    .post("https://serverest.dev/login");
+
+            if (response.statusCode() != 200) {
+                throw new RuntimeException(" Falha no login mesmo após criar o usuário: " + response.asString());
+            }
         }
 
-        return response.jsonPath().getString("authorization");
+        String token = response.jsonPath().getString("authorization");
+        System.out.println(" Token obtido com sucesso!");
+        return token;
     }
 
-}
 
+}
