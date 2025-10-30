@@ -150,5 +150,5 @@ Após a execução, os relatórios ficam disponíveis na aba **Actions → Job �
 ## Autor
 **Guilherme Ferreira Clemente**
 
-[Download da documentação do projeto](https://github.com/GFC-Inmetrics/carrefour-test-automation-api/raw/main/Projeto_API - Carrefour.docx)
+[Download da documentação do projeto](https://github.com/GFC-Inmetrics/carrefour-test-automation-api/raw/main/Projeto_API_-_Carrefour.docx)
 
