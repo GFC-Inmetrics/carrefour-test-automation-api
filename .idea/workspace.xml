@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="Ajuste massa">
+    <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="Final projeto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto API - Carrefour.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto API - Carrefour.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -484,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761700993344</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Final projeto">
+      <option name="closed" value="true" />
+      <created>1761794651578</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1761794651579</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +515,8 @@
     <MESSAGE value="YML - github com artefatos" />
     <MESSAGE value="ajuste" />
     <MESSAGE value="Ajuste massa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste massa" />
+    <MESSAGE value="Final projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final projeto" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

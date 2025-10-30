@@ -130,8 +130,8 @@ public class UserSteps {
 
     @When("um usuário com ID inválido é deletado")
     public void deletarUsuarioInexistente() {
-        String idInvalido = "0uxuPY0cbmQh21021id21"; // qualquer ID que não existe
-        response = userApi.deleteUser(idInvalido);   // <---- ESSENCIAL
+        String idInvalido = "0uxuPY0cbmQh21021id21";
+        response = userApi.deleteUser(idInvalido);
         System.out.println("Status: " + response.statusCode());
         System.out.println("Body: " + response.asString());
     }
