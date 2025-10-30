@@ -1,4 +1,0 @@
-hooks\UserHooks.class
-utils\AuthUtils.class
-pages\BaseApi.class
-pages\UserApi.class

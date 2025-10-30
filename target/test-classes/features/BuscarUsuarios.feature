@@ -1,5 +1,5 @@
 
-Feature: Busca de usuários
+Feature: Busca de usuarios
 
 Scenario: Buscar a lista de usuários
 When todos os usuários são buscados
