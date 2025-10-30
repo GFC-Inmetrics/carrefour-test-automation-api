@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbaa15d4-484b-4c79-b881-191d05506745" name="Changes" comment="Ajuste massa">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AuthUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/UserHooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hooks/UserHooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/UserApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/AuthUtils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/UserSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BuscarUsuários.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BuscarUsuarios.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DeletarUsuário.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DeletarUsuário.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hooks/UserHooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/UserApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/UserApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/AuthUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report/html/cucumber-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runners.TestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/BuscarUsuários.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/UserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/UserSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
