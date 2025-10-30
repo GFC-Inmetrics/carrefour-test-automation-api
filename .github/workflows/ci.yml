@@ -43,14 +43,15 @@ jobs:
         run: ls -R target
 
       # 7 - Faz upload dos relatórios do Cucumber, se existirem
-      - name: Upload test reports
+      - name: Upload Cucumber Reports
         uses: actions/upload-artifact@v4
         with:
           name: cucumber-reports
           path: |
-            target/cucumber-report/html
+            target/cucumber-report/html/*
             target/cucumber-report.json
             target/cucumber.xml
+
 
       - name: Upload Surefire reports
         if: failure()
